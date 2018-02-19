@@ -12,6 +12,8 @@ class ViewController: UIViewController,UITextFieldDelegate
     @IBOutlet var lblMealTitle: UILabel!
     @IBOutlet var txtMealTitle: UITextField!
     @IBOutlet var mealImage: UIImageView!
+    
+    @IBOutlet var ratingController: RatingControl!
     override func viewDidLoad() {
         super.viewDidLoad()
         txtMealTitle.delegate = self
@@ -29,7 +31,7 @@ class ViewController: UIViewController,UITextFieldDelegate
         return true
     }
     func textFieldDidEndEditing(_ textField: UITextField) {
-        lblMealTitle.text = txtMealTitle.text
+      
     }
     
     
@@ -62,7 +64,7 @@ class ViewController: UIViewController,UITextFieldDelegate
     }
     
     @IBAction func setMealNameTitle(_ sender: UIButton) {
-        lblMealTitle.text = "Default Label"
+       
     }
 
 }
