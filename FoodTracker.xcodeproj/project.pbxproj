@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236ABDF4203ABD4F0019AF38 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236ABDF3203ABD4F0019AF38 /* RatingControl.swift */; };
 		237C19C52039562A0095F1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C19C42039562A0095F1E8 /* AppDelegate.swift */; };
 		237C19C72039562A0095F1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C19C62039562A0095F1E8 /* ViewController.swift */; };
 		237C19CA2039562A0095F1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237C19C82039562A0095F1E8 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		236ABDF3203ABD4F0019AF38 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		237C19C12039562A0095F1E8 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C19C42039562A0095F1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237C19C62039562A0095F1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				237C19C42039562A0095F1E8 /* AppDelegate.swift */,
 				237C19C62039562A0095F1E8 /* ViewController.swift */,
+				236ABDF3203ABD4F0019AF38 /* RatingControl.swift */,
 				237C19C82039562A0095F1E8 /* Main.storyboard */,
 				237C19CE2039562A0095F1E8 /* Assets.xcassets */,
 				237C19D02039562A0095F1E8 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236ABDF4203ABD4F0019AF38 /* RatingControl.swift in Sources */,
 				237C19C72039562A0095F1E8 /* ViewController.swift in Sources */,
 				237C19C52039562A0095F1E8 /* AppDelegate.swift in Sources */,
 				237C19CD2039562A0095F1E8 /* FoodTracker.xcdatamodeld in Sources */,
