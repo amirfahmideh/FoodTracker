@@ -7,9 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITextFieldDelegate
+class MealViewController: UIViewController,UITextFieldDelegate
 ,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
-    @IBOutlet var lblMealTitle: UILabel!
     @IBOutlet var txtMealTitle: UITextField!
     @IBOutlet var mealImage: UIImageView!
     
